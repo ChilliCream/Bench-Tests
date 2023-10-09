@@ -1,17 +1,17 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net8.0": {
       "BananaCakePop.Middleware/7.0.4": {
         "type": "package",
         "dependencies": {
           "Yarp.ReverseProxy": "2.0.1"
         },
         "compile": {
-          "lib/net6.0/BananaCakePop.Middleware.dll": {}
+          "lib/net7.0/BananaCakePop.Middleware.dll": {}
         },
         "runtime": {
-          "lib/net6.0/BananaCakePop.Middleware.dll": {}
+          "lib/net7.0/BananaCakePop.Middleware.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -25,12 +25,12 @@
           "System.Threading.Tasks.Extensions": "4.5.0"
         },
         "compile": {
-          "lib/net6.0/GreenDonut.dll": {
+          "lib/net8.0/GreenDonut.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/GreenDonut.dll": {
+          "lib/net8.0/GreenDonut.dll": {
             "related": ".xml"
           }
         }
@@ -56,12 +56,12 @@
           "System.Collections.Immutable": "1.7.0"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Abstractions.dll": {
+          "lib/net8.0/HotChocolate.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Abstractions.dll": {
+          "lib/net8.0/HotChocolate.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -76,12 +76,12 @@
           "HotChocolate.Types.Scalars.Upload": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.AspNetCore.dll": {
+          "lib/net8.0/HotChocolate.AspNetCore.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.AspNetCore.dll": {
+          "lib/net8.0/HotChocolate.AspNetCore.dll": {
             "related": ".xml"
           }
         },
@@ -100,12 +100,12 @@
           "System.CommandLine": "2.0.0-beta4.22272.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.AspNetCore.CommandLine.dll": {
+          "lib/net8.0/HotChocolate.AspNetCore.CommandLine.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.AspNetCore.CommandLine.dll": {
+          "lib/net8.0/HotChocolate.AspNetCore.CommandLine.dll": {
             "related": ".xml"
           }
         },
@@ -119,12 +119,12 @@
           "HotChocolate.Execution": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Authorization.dll": {
+          "lib/net8.0/HotChocolate.Authorization.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Authorization.dll": {
+          "lib/net8.0/HotChocolate.Authorization.dll": {
             "related": ".xml"
           }
         }
@@ -142,12 +142,12 @@
           "System.Threading.Channels": "4.7.0"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Execution.dll": {
+          "lib/net8.0/HotChocolate.Execution.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Execution.dll": {
+          "lib/net8.0/HotChocolate.Execution.dll": {
             "related": ".xml"
           }
         }
@@ -159,12 +159,12 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Execution.Abstractions.dll": {
+          "lib/net8.0/HotChocolate.Execution.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Execution.Abstractions.dll": {
+          "lib/net8.0/HotChocolate.Execution.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -176,12 +176,12 @@
           "HotChocolate.Types": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Fetching.dll": {
+          "lib/net8.0/HotChocolate.Fetching.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Fetching.dll": {
+          "lib/net8.0/HotChocolate.Fetching.dll": {
             "related": ".xml"
           }
         }
@@ -195,12 +195,12 @@
           "HotChocolate.Language.Web": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Language.dll": {
+          "lib/net8.0/HotChocolate.Language.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Language.dll": {
+          "lib/net8.0/HotChocolate.Language.dll": {
             "related": ".xml"
           }
         }
@@ -211,10 +211,10 @@
           "Microsoft.Extensions.ObjectPool": "3.1.4"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Language.SyntaxTree.dll": {}
+          "lib/net8.0/HotChocolate.Language.SyntaxTree.dll": {}
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Language.SyntaxTree.dll": {}
+          "lib/net8.0/HotChocolate.Language.SyntaxTree.dll": {}
         }
       },
       "HotChocolate.Language.Utf8/13.5.1": {
@@ -223,12 +223,12 @@
           "HotChocolate.Language.SyntaxTree": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Language.Utf8.dll": {
+          "lib/net8.0/HotChocolate.Language.Utf8.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Language.Utf8.dll": {
+          "lib/net8.0/HotChocolate.Language.Utf8.dll": {
             "related": ".xml"
           }
         }
@@ -239,12 +239,12 @@
           "HotChocolate.Language.SyntaxTree": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Language.Visitors.dll": {
+          "lib/net8.0/HotChocolate.Language.Visitors.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Language.Visitors.dll": {
+          "lib/net8.0/HotChocolate.Language.Visitors.dll": {
             "related": ".xml"
           }
         }
@@ -255,12 +255,12 @@
           "HotChocolate.Language.Utf8": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Language.Web.dll": {
+          "lib/net8.0/HotChocolate.Language.Web.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Language.Web.dll": {
+          "lib/net8.0/HotChocolate.Language.Web.dll": {
             "related": ".xml"
           }
         }
@@ -272,12 +272,12 @@
           "HotChocolate.Execution.Abstractions": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Subscriptions.dll": {
+          "lib/net8.0/HotChocolate.Subscriptions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Subscriptions.dll": {
+          "lib/net8.0/HotChocolate.Subscriptions.dll": {
             "related": ".xml"
           }
         }
@@ -290,12 +290,12 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Subscriptions.InMemory.dll": {
+          "lib/net8.0/HotChocolate.Subscriptions.InMemory.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Subscriptions.InMemory.dll": {
+          "lib/net8.0/HotChocolate.Subscriptions.InMemory.dll": {
             "related": ".xml"
           }
         }
@@ -306,12 +306,12 @@
           "System.IO.Pipelines": "4.7.0"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Transport.Sockets.dll": {
+          "lib/net8.0/HotChocolate.Transport.Sockets.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Transport.Sockets.dll": {
+          "lib/net8.0/HotChocolate.Transport.Sockets.dll": {
             "related": ".xml"
           }
         }
@@ -328,12 +328,12 @@
           "System.Text.Json": "6.0.7"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Types.dll": {
+          "lib/net8.0/HotChocolate.Types.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Types.dll": {
+          "lib/net8.0/HotChocolate.Types.dll": {
             "related": ".xml"
           }
         }
@@ -348,12 +348,12 @@
           "HotChocolate.Types": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Types.CursorPagination.dll": {
+          "lib/net8.0/HotChocolate.Types.CursorPagination.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Types.CursorPagination.dll": {
+          "lib/net8.0/HotChocolate.Types.CursorPagination.dll": {
             "related": ".xml"
           }
         }
@@ -365,12 +365,12 @@
           "HotChocolate.Types": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Types.Mutations.dll": {
+          "lib/net8.0/HotChocolate.Types.Mutations.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Types.Mutations.dll": {
+          "lib/net8.0/HotChocolate.Types.Mutations.dll": {
             "related": ".xml"
           }
         }
@@ -382,12 +382,12 @@
           "HotChocolate.Types": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Types.OffsetPagination.dll": {
+          "lib/net8.0/HotChocolate.Types.OffsetPagination.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Types.OffsetPagination.dll": {
+          "lib/net8.0/HotChocolate.Types.OffsetPagination.dll": {
             "related": ".xml"
           }
         }
@@ -398,12 +398,12 @@
           "HotChocolate.Types": "13.5.1"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Types.Scalars.Upload.dll": {
+          "lib/net8.0/HotChocolate.Types.Scalars.Upload.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Types.Scalars.Upload.dll": {
+          "lib/net8.0/HotChocolate.Types.Scalars.Upload.dll": {
             "related": ".xml"
           }
         }
@@ -416,12 +416,12 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Utilities.dll": {
+          "lib/net8.0/HotChocolate.Utilities.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Utilities.dll": {
+          "lib/net8.0/HotChocolate.Utilities.dll": {
             "related": ".xml"
           }
         }
@@ -433,12 +433,12 @@
           "System.Text.Json": "6.0.7"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Utilities.Introspection.dll": {
+          "lib/net8.0/HotChocolate.Utilities.Introspection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Utilities.Introspection.dll": {
+          "lib/net8.0/HotChocolate.Utilities.Introspection.dll": {
             "related": ".xml"
           }
         }
@@ -451,12 +451,12 @@
           "Microsoft.Extensions.Options": "3.1.4"
         },
         "compile": {
-          "lib/net6.0/HotChocolate.Validation.dll": {
+          "lib/net8.0/HotChocolate.Validation.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/HotChocolate.Validation.dll": {
+          "lib/net8.0/HotChocolate.Validation.dll": {
             "related": ".xml"
           }
         }
@@ -656,12 +656,12 @@
       "System.IO.Hashing/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.IO.Hashing.dll": {
+          "lib/net7.0/System.IO.Hashing.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.IO.Hashing.dll": {
+          "lib/net7.0/System.IO.Hashing.dll": {
             "related": ".xml"
           }
         },
@@ -780,12 +780,12 @@
           "System.IO.Hashing": "7.0.0"
         },
         "compile": {
-          "lib/net6.0/Yarp.ReverseProxy.dll": {
+          "lib/net7.0/Yarp.ReverseProxy.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Yarp.ReverseProxy.dll": {
+          "lib/net7.0/Yarp.ReverseProxy.dll": {
             "related": ".xml"
           }
         },
@@ -1941,7 +1941,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net8.0": [
       "HotChocolate.AspNetCore >= 13.5.1",
       "HotChocolate.AspNetCore.CommandLine >= 13.5.1",
       "HotChocolate.Types.Analyzers >= 13.5.1"
@@ -1964,14 +1964,14 @@
         "/Users/michael/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -1982,8 +1982,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "HotChocolate.AspNetCore": {
             "target": "Package",
@@ -2011,20 +2011,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[6.0.22, 6.0.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2033,7 +2019,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.1.23455.8/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.1.23455.8/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

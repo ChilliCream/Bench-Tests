@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RCP3pnVrc/MnFgGBtW+sFxuiAicYymN7w3e8vUmahz6usjlz/SQhZPyq3+cW19pCBqlC0m4hHIofS9W4qRNxKg==",
+  "dgSpecHash": "k53nORM467VVZfnkxGO/XEfh2le9aNRYw5+zg2eBBJpVwcQ09Tc1s+3aCNsnMw9BngrWWWnlNmr/VxXbJf4qNA==",
   "success": true,
   "projectFilePath": "/Users/michael/local/Bench-Tests/src/Template/Template.csproj",
   "expectedPackageFiles": [
@@ -50,10 +50,7 @@
     "/Users/michael/.nuget/packages/system.text.json/6.0.7/system.text.json.6.0.7.nupkg.sha512",
     "/Users/michael/.nuget/packages/system.threading.channels/4.7.0/system.threading.channels.4.7.0.nupkg.sha512",
     "/Users/michael/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/michael/.nuget/packages/yarp.reverseproxy/2.0.1/yarp.reverseproxy.2.0.1.nupkg.sha512",
-    "/Users/michael/.nuget/packages/microsoft.netcore.app.ref/6.0.22/microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
-    "/Users/michael/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.22/microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
-    "/Users/michael/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.22/microsoft.netcore.app.host.osx-arm64.6.0.22.nupkg.sha512"
+    "/Users/michael/.nuget/packages/yarp.reverseproxy/2.0.1/yarp.reverseproxy.2.0.1.nupkg.sha512"
   ],
   "logs": []
 }
